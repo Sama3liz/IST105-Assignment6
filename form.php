@@ -8,22 +8,21 @@
 </head>
 
 <body>
-	<h1>Welcome to a simple </h1>
-	<p>Enter the details and try to win... I don't understand the game to be honest :D</p>
+	<h1>Welcome to a simple operations</h1>
 	<form action="process.php" method="post">
-		<label>Number: </label>
+		<label>Number 1: </label>
 		<input type="number" name="a" required>
 		<br>
-		<label>Number: </label>
+		<label>Number 2: </label>
 		<input type="number" name="b" required>
 		<br>
-		<label>Number: </label>
+		<label>Number 3: </label>
 		<input type="number" name="c" required>
 		<br>
-		<label>Number: </label>
+		<label>Number 4: </label>
 		<input type="number" name="d" required>
 		<br>
-		<label>Number: </label>
+		<label>Number 5: </label>
 		<input type="number" name="e" required>
 		<br>
 		<input type="submit" value="Submit">
