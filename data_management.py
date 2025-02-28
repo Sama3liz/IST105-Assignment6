@@ -9,6 +9,8 @@ try:
 
     values = [a,b,c,d,e]
 
+    print(f"<p>Original Values: {values}")
+
     if any(x < 0 for x in values):
         print("<p>Warning: Some values are negative.</p>")
         
